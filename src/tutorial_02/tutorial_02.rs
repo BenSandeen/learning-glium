@@ -32,8 +32,6 @@ pub fn tutorial_02() {
     // Indices for indexing into the vertex buffer.  This is just a dummy object for right now
     let indices = glium::index::NoIndices(glium::index::PrimitiveType::TrianglesList);
 
-    // let vert_shader_src = include_str!("vertex_shader.vert");
-    // let frag_shader_src = include_str!("fragment_shader.frag");
     let vert_shader_src = r#"
         #version 140
         in vec2 position;
